@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturno Technology | Innovación a tu alcance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="Logo Saturno" class="nav-logo">
+                <span class="brand-name">Saturno Technology</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#sobre-nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#productos" class="btn-nav">Comprar</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Tecnología de calidad para tu día a día</h1>
+            <p>Descubre la selección más exclusiva de gadgets y equipos de alto rendimiento en Saturno Technology.</p>
+            <div class="hero-btns">
+                <a href="#productos" class="btn btn-primary">Ver Catálogo</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container section-padding">
+        <div class="grid-5">
+            <div class="benefit-card">
+                <i class="bi bi-patch-check"></i>
+                <h3>Originalidad</h3>
+                <p>Productos 100% auténticos.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="bi bi-shield-lock"></i>
+                <h3>Garantía</h3>
+                <p>Respaldo total por 12 meses.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="bi bi-truck"></i>
+                <h3>Envíos Rápidos</h3>
+                <p>Entrega en todo el país.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="bi bi-headset"></i>
+                <h3>Soporte</h3>
+                <p>Atención técnica experta.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="bi bi-credit-card"></i>
+                <h3>Pagos Seguros</h3>
+                <p>Múltiples métodos de pago.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="section-padding products-bg">
+        <div class="container">
+            <h2 class="section-title">Nuestras Categorías</h2>
+            <div class="category-grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=800" class="card-img" alt="Laptops">
+                    <div class="card-body">
+                        <h3>Laptops</h3>
+                        <p>Desde equipos para oficina hasta potentes estaciones de gaming.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800" class="card-img" alt="Smartphones">
+                    <div class="card-body">
+                        <h3>Smartphones</h3>
+                        <p>Los últimos lanzamientos con tecnología de punta.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800" class="card-img" alt="Accesorios">
+                    <div class="card-body">
+                        <h3>Accesorios</h3>
+                        <p>Periféricos y wearables para tu ecosistema digital.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros" class="section-padding container">
+        <div class="about-flex">
+            <div class="about-text">
+                <h2>Saturno Technology</h2>
+                <p>Somos apasionados por la innovación. Con sede en Chinandega, León, Managua, Granada y Masaya nos dedicamos a conectar a los nicaragüenses con las herramientas digitales más avanzadas.</p>
+                <p>Nuestra misión es democratizar el acceso a hardware de alta calidad con un servicio post-venta excepcional.</p>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="300">0</h3>
+                    <p>Productos</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="100">0</h3>
+                    <p>Clientes</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Años</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section-padding container">
+        <h2 class="section-title">Contáctanos</h2>
+        <div class="contact-flex">
+            <div class="contact-info">
+                <h3>¿Listo para renovarte?</h3>
+                <p>Escríbenos y un asesor te atenderá personalmente.</p>
+                <ul class="contact-list">
+                    <li><i class="bi bi-geo-alt-fill"></i> Nicaragua</li>
+                    <li><i class="bi bi-envelope-fill"></i> info@saturnotech.com</li>
+                </ul>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <h3>Saturno Technology</h3>
+            <div class="social-links">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <p>&copy; 2026 Saturno Technology. Todos los derechos reservados.</p>
+            <p class="location-tag">by: Jean Carlos-CR.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
